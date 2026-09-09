@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مطعم حبئ في عفرين — أطباق شرقية، قهوة وحلويات، وضيافة من القلب." />
+  <meta name="theme-color" content="#243817" />
+  <title>حبئ | مطعم عفرين</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="العودة إلى الرئيسية">
+      <span class="brand-mark" data-site-name>حبئ</span>
+      <span class="brand-sub" data-site-subtitle>مطعم · عفرين</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#home">الرئيسية</a>
+      <a href="#menu">قائمة الطعام</a>
+      <a href="#about">عن المطعم</a>
+      <a href="#gallery">الصور</a>
+      <a href="#reviews">المراجعات</a>
+      <a href="#contact">الموقع والتواصل</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">مطعم · عفرين</span>
+        <h1 data-hero-title>نكهة تستحق التجربة</h1>
+        <p data-hero-text>أطباق تُحضّر بعناية، وقهوة وحلويات شرقية، وأجواء دافئة تجمع أهل عفرين وضيوفها.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">استكشف القائمة <span>←</span></a>
+          <a class="btn btn-light" href="#contact">اتصل بنا</a>
+        </div>
+        <div class="rating-pill"><strong data-rating>4.1</strong><span>★ ★ ★ ★ ★</span><small>من <b data-review-count>139</b> مراجعة</small></div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="assets/hero.jpg" alt="طبق من مطعم حبئ" class="hero-image" />
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading">
+        <span class="eyebrow">قائمتنا</span>
+        <h2>قائمة الطعام</h2>
+        <p>اخترنا لكم من مطبخنا أطباقاً تحضر يومياً بمكونات طازجة — من القهوة المختصة إلى المشاوي والحلويات الشرقية.</p>
+      </div>
+      <div class="category-tabs" id="categoryTabs"></div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <p class="menu-note">الأسعار المعروضة استرشادية وقد تتغير — يفضّل تأكيد السعر الحالي عند الطلب.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading narrow">
+        <span class="eyebrow">حكايتنا</span>
+        <h2>عن المطعم</h2>
+        <p>ثلاث قيم نطبخ بها كل يوم — وهي سر كل طبق يخرج من مطبخنا.</p>
+      </div>
+      <div class="values">
+        <article class="value-card"><span>01</span><h3>من قلب عفرين</h3><p>وُلد حبئ من فكرة بسيطة: مكان يجمع أهل المدينة على طعام صادق وأجواء دافئة، بلا تصنع وبلا استعجال.</p></article>
+        <article class="value-card"><span>02</span><h3>من أرضنا</h3><p>نختار خضارنا وفواكهنا كل صباح من أسواق عفرين، ونخصص قهوتنا بعناية، لأن النكهة تبدأ من المكوّن.</p></article>
+        <article class="value-card"><span>03</span><h3>ضيافة أصيلة</h3><p>عندما تكون ضيفاً عندنا قبل أن تكون زبوناً: جلسات مريحة، وخدمة بابتسامة، وطبق يصلك كما نحب أن يصلنا.</p></article>
+      </div>
+      <blockquote>«الطعام الجيد يبدأ من نيّة صادقة، وضيافة بلا حساب.»</blockquote>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading on-dark">
+        <span class="eyebrow">من مطبخنا وجلساتنا</span>
+        <h2>الصور</h2>
+        <p>لقطات من أطباقنا وأجوائنا — وسنشارككم قريباً صوراً من عدسة ضيوفنا.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g-large"><img src="assets/dish.jpg" alt="طبق فاخر" loading="lazy"></figure>
+        <figure><img src="assets/coffee.jpg" alt="قهوة" loading="lazy"></figure>
+        <figure><img src="assets/interior.jpg" alt="جلسات المطعم" loading="lazy"></figure>
+        <figure class="g-wide"><img src="assets/bright-interior.jpg" alt="جلسة مضيئة" loading="lazy"></figure>
+        <figure class="g-wide"><img src="assets/cafe.jpg" alt="داخل المطعم" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="section-heading">
+        <span class="eyebrow">آراء ضيوفنا</span>
+        <h2>المراجعات</h2>
+        <p>أجمل ما نسمعه — كلمات ضيوفنا بعد الزيارة.</p>
+      </div>
+      <div class="review-summary"><div class="big-rating" data-rating>4.1</div><div><div class="stars">★★★★★</div><span>من <b data-review-count>139</b> مراجعة</span></div></div>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow">زورونا</span>
+        <h2>الموقع والتواصل</h2>
+        <p>في انتظاركم كل يوم — للجلسات الداخلية، الطعام السفري، أو التوصيل داخل عفرين.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-row"><span class="info-icon">⌖</span><div><small>العنوان</small><strong data-address>عفرين – ريف حلب، سوريا</strong></div></div>
+          <div class="info-row"><span class="info-icon">◷</span><div><small>ساعات العمل</small><strong data-hours>يومياً: 9:00 صباحاً – 12:00 منتصف الليل</strong></div></div>
+          <div class="info-row"><span class="info-icon">⌕</span><div><small>الهاتف</small><strong dir="ltr" data-phone>+963 000 000 000</strong></div></div>
+        </div>
+        <div class="order-card">
+          <span class="eyebrow">اطلب الآن</span>
+          <h3>جاهزون لاستقبال طلبك</h3>
+          <p>اتصل بنا مباشرة أو أرسل لنا على واتساب — جهّز طلبك وخلي الباقي علينا.</p>
+          <div class="order-actions"><a class="btn btn-white" id="callBtn" href="#">اتصال مباشر ☎</a><a class="btn btn-outline" id="waBtn" href="#" target="_blank" rel="noopener">واتساب ◌</a></div>
+          <small>توصيل داخل عفرين · طعام سفري · جلسات داخلية</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner"><div><span class="brand-mark" data-site-name>حبئ</span><span class="brand-sub" data-site-subtitle>مطعم · عفرين</span></div><div class="footer-links"><a href="#home">الرئيسية</a><a href="#menu">قائمة الطعام</a><a href="#about">عن المطعم</a><a href="#gallery">الصور</a><a href="#reviews">المراجعات</a><a href="#contact">الموقع والتواصل</a></div><a class="footer-order" href="#contact">اطلب الآن ☎</a></div>
+  </footer>
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
